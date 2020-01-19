@@ -1,0 +1,11 @@
+{
+    "bq_output_table": "dataset.usa_names",
+    "completion_bucket_name": "output-gcs-bucket",
+    "email": "anand.raghunathan@hotmail.com",
+    "gcp_project": "test_gcp_project",
+    "input_bucket_name": "input-gcs-bucket",
+    "input_field_names": "state,gender,year,name,number,created_date",
+    "input_file_fullpath": "gs://input-gcs-bucket/usa_names.csv",
+    "input_filename": "usa_names.csv",
+    "staging_bucket_fullpath": "gs://input-gcs-bucket/staging"
+}
